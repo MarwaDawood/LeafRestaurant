@@ -5,29 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Oro Restaurant </title>
     <link rel="stylesheet" href="styles.css">
+
+</script>
 </head>
 <body>
-    <img class="mainImage" src="./images/imgone.jpg"/>
     <header>
         <nav>
             <ul>
                 <li><a href="#menu"> Menu </a></li>
                 <li><a href="#story"> Our Story </a></li>
-                <li><a href="#Private"> Private Hire </a></li>
-                    <h1><a href="#home"> Oro </a> </h1>
+                <li><a href="#private"> Private Hire </a></li>
+                <h1><a href="#home"> Oro </a> </h1>
                 <li><a href="#blog"> Blog </a></li>
                 <li><a href="#on"> What's On </a></li>
                 <li><a href="#conract"> Contact Us </a></li>
-    
+                <button class="btn"><a href="book"> Book A Table </a> </button>
             </ul>
-            <button class="btn"><a href="book"> Book A Table </a> </button>
         </nav>
     </header>
+    <img class="mainImage" src="./images/interior/imgone.jpg" alt="picture of restaurant interior" />
 </body>
 <main>
-    <section>
+    <article class="welcomeContainer">
+    <section class="welcomeText">
+        <h2> Welcome to Oro</h2>
+        <p> At Oro, we believe that dining is an art form, and our passion lies in creating unforgettable culinary experiences for
+        our guests. 
+         Nestled in the heart of London , Oro offers a sophisticated yet warm environment, perfect for an intimate dinner, a celebratory feast, or a special occasion. Whether you're savoring our signature seafood paella, indulging in a decadent chocolate torte, or simply enjoying a glass of wine from our carefully curated selection, every moment at Oro
+        is designed to delight your senses.</p>
+        <div class="welcomeButton">
+        <button class="btn"> <a href="#book"> Book A Table </a> </button> </div>
+    </section>
+    <section class="welcomePic">
+        <img src="./images/interior/imgthree.jpg" alt="picture of restaurant interior"/>
+    </section>
+</article>
+
+<article class="menuContainer"> 
+    <section class="menuPic">
+        <img src="./images/food/img8.jpeg" alt="picture of plate of food"/>
+    </section>
+    <section class="menuText">
+        <h2> Our Menus </h2>
+        <p> Our chefs take inspiration from the rich traditions of Mediterranean cuisine, crafting each dish with the finest,
+        locally sourced ingredients. From the vibrant flavors of Southern Italy to the delicate spices of the Middle East, our
+        menu is a celebration of the diverse and timeless culinary heritage of the Mediterranean. </p>
+        <div class="lookButton">
+            <button class="btn"> <a href="#menu"> Take a Look </a> </button>
+        </div>
+    </section>
+    </article>
+   <article class="privateContainer">
+    <section class="privateText">
+        <h2> Private Dinning & Hire </h2>
+        <p> With flexible seating arrangements that can be adapted to suit your needs, our semi-private dining area can cater for up
+        to 20 guests.
+        For larger groups, the entire first floor is available for hire as an event space or party room</p>
+<div class="enquireButton">
+    <button class="btn"> <a href="#private"> Enquire Now </a> </button>
+    </section>
+    <section class="privatePic">
+        <img src="./images/interior/imgone.jpg" alt="Picture of restaurant interior"/>
 
     </section>
 
+    </article>
+    <article class="newsletterContainer">
+        <section class="newsletter">
+            <h2> Hear more about Oro</h2>
+            <p> Sign up for our newsletter and we'll send the latest news straight to your inbox.</p>
+            <form>
+                <input class="email" type="email" name="email" placeholder="Enter your email address" required>
+                <div class="newsletterButton">
+                <button type="submit" class="btn">Subscribe</button>
+                </div>
+            </form>
+        </section>
+    </article>
 </main>
+<footer>
+    
+</footer>
 </html>
