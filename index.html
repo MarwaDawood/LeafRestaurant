@@ -3,58 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Oro Restaurant </title>
+    <title> Leaf Restaurant </title>
     <link rel="stylesheet" href="styles.css">
-
-</script>
+    <link rel="icon" href="images/icons/leafSmall.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
+
+<body id="home">
     <header>
         <nav>
             <ul>
                 <li><a href="#menu"> Menu </a></li>
                 <li><a href="#story"> Our Story </a></li>
                 <li><a href="#private"> Private Hire </a></li>
-                <h1><a href="#home"> Oro </a> </h1>
+                <a class="logo" href="index.html"> <img src="./images/icons/leafLarge.png" alt="Logo of a leaf" width="40" height="50" > </a> 
                 <li><a href="#blog"> Blog </a></li>
                 <li><a href="#on"> What's On </a></li>
-                <li><a href="#conract"> Contact Us </a></li>
-                <button class="btn"><a href="book"> Book A Table </a> </button>
+                <li><a href="#contact"> Contact Us </a></li>
+                <div class="bookButton">
+                <button class="btn"><a href="book"> Book A Table </a> </button> </div>
             </ul>
         </nav>
     </header>
-    <img class="mainImage" src="./images/interior/imgone.jpg" alt="picture of restaurant interior" />
+    <img class="mainImage" src="./images/interior/imgfour.jpg" alt="picture of restaurant interior">
 </body>
 <main>
     <article class="welcomeContainer">
     <section class="welcomeText">
-        <h2> Welcome to Oro</h2>
-        <p> At Oro, we believe that dining is an art form, and our passion lies in creating unforgettable culinary experiences for
-        our guests. 
-         Nestled in the heart of London , Oro offers a sophisticated yet warm environment, perfect for an intimate dinner, a celebratory feast, or a special occasion. Whether you're savoring our signature seafood paella, indulging in a decadent chocolate torte, or simply enjoying a glass of wine from our carefully curated selection, every moment at Oro
-        is designed to delight your senses.</p>
+        <h2> Welcome to Leaf</h2>
+        <p> At Leaf, we embrace the art of modern dining with a focus on simplicity and freshness. Nestled in the heart of the city,
+        our minimalist design creates a serene environment where innovation meets nature.
+        
+        Our menu is a celebration of the finest seasonal ingredients, crafted with a creative touch to deliver unforgettable
+        flavors. From vibrant salads and wholesome grain bowls to inventive plant-based dishes, every plate at Leaf is designed
+        to nourish both body and soul.
+        
+        Join us for an exceptional dining experience where every detail is thoughtfully curated to highlight the essence of
+        fresh, sustainable cuisine. Whether you're here for a casual meal or a special occasion, Leaf offers a contemporary
+        haven where taste and simplicity come together.</p>
         <div class="welcomeButton">
         <button class="btn"> <a href="#book"> Book A Table </a> </button> </div>
     </section>
     <section class="welcomePic">
-        <img src="./images/interior/imgthree.jpg" alt="picture of restaurant interior"/>
+        <img src="./images/interior/imgthree.webp" alt="picture of restaurant interior">
     </section>
 </article>
 
+
+
 <article class="menuContainer"> 
     <section class="menuPic">
-        <img src="./images/food/img8.jpeg" alt="picture of plate of food"/>
+        <img src="./images/food/imgthree.webp" alt="picture of plate of food">
     </section>
     <section class="menuText">
         <h2> Our Menus </h2>
-        <p> Our chefs take inspiration from the rich traditions of Mediterranean cuisine, crafting each dish with the finest,
-        locally sourced ingredients. From the vibrant flavors of Southern Italy to the delicate spices of the Middle East, our
-        menu is a celebration of the diverse and timeless culinary heritage of the Mediterranean. </p>
+        <p> At Leaf, we redefine modern dining with a focus on clean, fresh, and innovative flavors. Our menu is a canvas where the
+        beauty of simplicity meets culinary artistry.
+        
+        We carefully select seasonal ingredients to craft dishes that celebrate natural taste while embracing creative
+        presentation. Each item on our menu is designed to highlight the purity of fresh produce, from crisp salads and
+        wholesome bowls to inventive plant-based options.
+        
+        Dive into a dining experience that prioritizes freshness and originality, where every dish is a testament to our
+        dedication to elevating the essentials of contemporary cuisine. </p>
         <div class="lookButton">
             <button class="btn"> <a href="#menu"> Take a Look </a> </button>
         </div>
     </section>
     </article>
+
+
+
    <article class="privateContainer">
     <section class="privateText">
         <h2> Private Dinning & Hire </h2>
@@ -65,25 +87,106 @@
     <button class="btn"> <a href="#private"> Enquire Now </a> </button>
     </section>
     <section class="privatePic">
-        <img src="./images/interior/imgone.jpg" alt="Picture of restaurant interior"/>
-
+        <img src="./images/interior/imgeight.jpg" alt="Picture of restaurant interior">
     </section>
-
     </article>
+
+    <hr>
+
+    <article class="eventsContainer">
+      
+        <h2 class="eventsTitle"> Upcoming Events</h2>
+        
+     <section class="events">
+        <div class="card eventsLeft">
+            <img src="./images/food/drinkone.jpg" alt="image of a summer cocktail" width="350" height="300">
+            <h3> Summer Cocktail Class </h3>
+            <p> Learn the art of mixology from our expert
+            <br> bartenders and create your own signature
+            <br> fruity summer cocktails. </p>
+              <div class="date"> <img src="./images/icons/calender.png" alt="icon of a clock" width="15" height="15"><p> April 20, 2025</p>
+              </div>
+            <button class="btn"> Sign up</button>
+        </div>
+
+        <div class="card eventsMiddle">
+            <img src="./images//interior/imgsix.jpg" alt="image of a table with food" width="350" height="300">
+            <h3> Chef's Table</h3>
+            <p> Experience an intimate, multi-course dining
+            <br> event hosted by our renowned executive
+            <br>  chef, Marwa D.</p>
+               <div class="date"> <img src="./images/icons/calender.png" alt="icon of a clock" width="15" height="15"> <p> June 15, 2025 </p>
+            </div>
+            <button class="btn"> Book now</button>
+        </div>
+
+        <div class="card eventsRight">
+            <img src="./images/food/img1.jpg" alt="image of citrus fruits" width="350" height="300">
+            <h3> Summer Harvest Feast </h3>
+            <p> Enjoy a seasonal menu crafted with the
+                <br> freshest local ingredients, highlighting
+                <br> the vibrant flavors of summer. </p>
+              <div class="date"> <img src="./images/icons/calender.png" alt="icon of a clock" width="15" height="15"><p> August 3, 2025 </p></div>
+            <button class="btn"> Reserve Your Spot</button>
+         </div>
+        </section>
+       
+    </article>
+
+ <hr>
+
     <article class="newsletterContainer">
         <section class="newsletter">
-            <h2> Hear more about Oro</h2>
+            <h2> Hear more about Leaf</h2>
             <p> Sign up for our newsletter and we'll send the latest news straight to your inbox.</p>
             <form>
-                <input class="email" type="email" name="email" placeholder="Enter your email address" required>
+                <input class="emailForm" type="email" name="email" placeholder="Enter your email address" required>
                 <div class="newsletterButton">
                 <button type="submit" class="btn">Subscribe</button>
                 </div>
             </form>
         </section>
     </article>
+   
 </main>
+
 <footer>
-    
+    <div class="name">
+    <h3> <a href="index.html"> Leaf </a> </h3>
+    <a href="index.html"> <img src="./images/icons/leafWhite.png" alt="logo of a leaf" width="40" height="40"> </a>
+    </div>
+
+    <div class="socialMedia"> 
+        <img class="x" src="./images/icons/x.png" alt="logo of x" width="30" height="30"> 
+        <img class="insta"  src="./images/icons/insta.png" alt="logo of instagram" width="30" height="30">
+    </div>
+
+    <div class="footerContainer">
+       
+        <div class="footerLeft">
+          
+            <h4> Lunch </h4>
+            <p> Thursday – Saturday
+            <br>12:00 – 14:15 </p>
+            <h4> Dinner </h4>
+            <p> Tuesday – Saturday
+            <br>18:30 – 21.45</p>
+
+        </div>
+        <div class="footerRight">
+            <h4> Address </h4>
+            <p> 123 King's Lane
+            Westminster, London
+            SW1A 1AA
+            United Kingdom </p>
+            <h4> Contact </h4>
+            <p> Have an enquiry about bookings, private dining or our menu?
+            Please contact us at: <span class="emailColor"> info@ororestaurant.co.uk </span> </p>
+            <p> Alternatively you can call us at <span class="numberColor"> +44 20 7946 0123 </span> between 9:30-17:30 Tues-Sat</p>
+            
+
+        </div>
+    </div>
+
 </footer>
 </html>
