@@ -16,6 +16,7 @@
 
 }
 
+/* Home page + nav + footer */
 
 body, ul {
     margin: 0;
@@ -49,12 +50,13 @@ nav {
     top: 0;
     left: 0;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
 }
 
 
 nav ul {
     list-style: none;
-    padding: 2em 0 2em 6em;
+    padding: 2em 0 2em 5em;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -190,7 +192,7 @@ main p {
 .menuText {
     flex: 2;
     text-align: left;
-    padding: 3em 0 0 2em;
+    padding: 1em 0 0 2em;
 
 }
 
@@ -280,13 +282,10 @@ hr {
     line-height: 1.5em;
     border-radius: 1em;
     padding: 0.5em;
-    transition: transform 0.3s ease;
 
 }
 
-.card:hover {
-    transform: translateY(5px);
-}
+
 .card img {
     border-radius: 1em;
    
@@ -397,8 +396,6 @@ footer h3 a {
 }
 
 
-
-
 .footerContainer {
     display: flex;
     justify-content: space-between;
@@ -452,5 +449,224 @@ footer h3 a {
 
 .emailColor, .numberColor {
     color: var(--primary-hover);
+}
+
+
+
+
+/* Our story */
+
+.aboutContainer {
+    display: flex;
+    margin-top: 5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.about p {
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+
+.ingredientsContainer {
+    display: flex;
+    margin-top: 5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.ingredients p {
+    margin-top: 1em;
+    line-height: 1.5em;
+
+}
+
+.teamContainer h2 {
+    text-align: center;
+    margin-top: 3em;
+
+}
+
+
+.teamGrid {
+    display: grid;
+    margin-top: 2em;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    gap: 2em;
+}
+
+
+.teamItem h3, p {
+    line-height: 1.5em;
+
+}
+
+.teamItem h3 {
+    color: var(--primary-green);
+    margin-top: 0.3em;
+}
+
+.teamItem img {
+    border-radius: 0.5em;
+}
+
+
+.careersContainer {
+    display: flex;
+    margin: 5em 2em 0 2em;
+    text-align: center;
+    background-color: rgb(56, 116, 79, 0.1);
+    padding: 3em 5em 3em 5em;
+   
+   
+}
+
+.careers p {
+    margin-top: 1em;
+    line-height: 1.5em;
+    color: var(--primary-text);
+}
+
+.emailCareers {
+    color: var(--primary-hover);
+}
+
+
+
+
+/* Menus */
+
+.mainMenus {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5em;
+    text-align: center;
+   
+}
+
+.menuItems {
+    background-color: white;
+   
+}
+
+.menuTitles {
+    border-top: solid black 0.1em;
+    border-bottom: solid black 0.1em;
+    padding: 1em 0 1em 0;
+}
+
+
+
+.starter, .main, .dessert {
+    margin-top: 4em;
+}
+
+
+
+.menuItems h3 {
+    color: var(--primary-green);
+    font-weight: 500;
+    margin-top: 1em;
+}
+    
+.menuItems p {
+        color: var(--secondary-text);
+        font-weight: 200;
+        margin-top: 0.5em;
+        
+}
+
+.menuButton {
+    margin-top: 2em;
+}
+
+.seasonMenu {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8em;
+}
+
+.allergies {
+    font-size: 0.6em;
+    line-height: 1em;
+    padding-top: 2em;
+    
+}
+
+.carousel {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    margin-top: 6em;
+}
+
+.slides {
+    display: flex;
+    width: 90%;
+    transition: transform 0.9s ease;
+}
+
+.slide {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.slide img {
+    width: 60%;
+    display: block;
+    border-radius: 0.4em;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#slide1:checked~.slides {
+    transform: translateX(200);
+}
+
+#slide2:checked~.slides {
+    transform: translateX(-200%);
+}
+
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    margin: 4em 0 2em 0;
+  
+}
+
+.arrow {
+    background-color: var(--primary-green);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    font-size: 2em;
+    font-weight: 100;
+    padding-bottom: 5px;
+}
+
+.arrow::before {
+    content: '›';
+ 
+}
+
+.arrow.next::before {
+    content: '‹';
+ 
 }
 
