@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Booking | Leaf Restaurant </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/icons/leafSmall.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<body id="book">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="menus.html"> Menus </a></li>
+                <li><a href="about.html"> Our Story </a></li>
+                <li><a href="private.html"> Private Hire </a></li>
+                <div class="logo-container">
+                    <a class="logo" href="index.html">
+                        <img src="./images/icons/leafLarge.png" alt="Logo of a leaf" width="40" height="50">
+                    </a>
+                    <div class="stars">
+                        <img src="./images/icons/star.png" alt="Icon of a Michelin star" width="20" height="20">
+                        <img src="./images/icons/star.png" alt="Icon of a Michelin star" width="20" height="20">
+                    </div>
+                </div>
+                <li><a href="blog.html"> Blog </a></li>
+                <li><a href="events.html"> What's On </a></li>
+                <li><a href="contact.html"> Contact Us </a></li>
+                <div class="bookButton">
+                    <button class="btn"><a href="book.html"> Book A Table </a> </button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <body>
+            <h2 class="reservationTitle">Reservation</h2>
+            <article class="reservationContainer"> 
+              
+        <section class="reservationImage">
+            <img src="./images/interior/imgtwelve.webp" alt="image of a table at a restaurant" width="700" height="780">
+        </section>
+                    <section class="reservationForm">
+                        <form id="reservation-form">
+                            <div class="form-group">
+                                <label for="date">Date of Reservation:</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Time of Reservation:</label>
+                                <input type="time" id="time" name="time" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="guests">Number of Guests:</label>
+                                    <select id="guest" name="guest">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </select>
+                                </div>
+                            <button type="submit" class="tableButton btn">Find a Table</button>
+                        </form>
+
+                        <section class="reservationText">
+                           
+                            <p> If you cannot find availability online, please call us on <span class="contactColor"> 020 7946 0123 </span> and
+                                we will do our best to accommodate you. </p>
+                            <p>
+                                Telephone lines are open from 10:00am until 5:00pm, Tuesday to Saturday. Outside of these times, please leave a
+                                message and
+                                we will respond as soon as we can </p>
+                            <p> For tables of 7 and above or for any further enquiries, please email us at <span class="contactColor">
+                                    bookings@leafrestaurant.com </span></p>
+                            <p> Looking for an event space in London to accommodate larger parties? Find out more about our private dining
+                                options and venue hire <span class="contactColor"> <a href="private.html"> here </a> </span></p>
+
+                    </section>
+
+            </section>
+            </article>
+
+            <article class="reservationInfo">
+            <section class="cancellationPolicy">
+                <h3> Cancellation policy </h3>
+                <p> We understand that plans can change. To ensure we can accommodate all our guests, please notify us at least 72 hours in
+                advance if you need to cancel or modify your reservation. </p>
+                <p> Cancellations made with less than 72 hours of your reservation time a cancellation fee of £125 per person will be charged to the card provided. For any questions or urgent changes, please contact us directly at <span class="contactColor"> 020 7946 0123 </span> or <span class="contactColor"> bookings@leafrestaurant.com </span>. Thank you for your understanding. </p>
+
+            </section>
+            <section class="dressCode">
+                <h3> Dress Code And Child Policy </h3>
+                <p> To maintain the ambiance of our restaurant, we kindly ask that guests adhere to a smart casual dress code. Guests who do not meet the dress code may be refused entry, and
+                a cancellation fee will apply. We appreciate your understanding and cooperation in ensuring a pleasant dining experience
+                for everyone</p>
+                <p> Children aged 7 and above are welcome to dine with us and are required to dine from the same menu as adults. We are
+                unable to accommodate babies and small children due to the nature of our dining environment, which may not be suitable
+                for them. We appreciate your understanding as we strive to create a comfortable and enjoyable experience for all guests. </p>
+                
+            </section>
+            </article>
+
+
+        <hr>
+        
+        <article class="newsletterContainer">
+            <section class="newsletter">
+                <h2> Hear more about Leaf</h2>
+                <p> Sign up for our newsletter and we'll send the latest news straight to your inbox.</p>
+                <form>
+                    <input class="emailForm" type="email" name="email" placeholder="Enter your email address" required>
+                    <div class="newsletterButton">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </div>
+                </form>
+            </section>
+        </article>
+        
+        </main>
+        
+        <footer>
+            <div class="name">
+                <h3> <a href="index.html"> Leaf </a> </h3>
+                <a href="index.html"> <img src="./images/icons/leafWhite.png" alt="logo of a leaf" width="40" height="40"> </a>
+            </div>
+        
+            <div class="socialMedia">
+                <img class="x" src="./images/icons/x.png" alt="logo of x" width="30" height="30">
+                <img class="insta" src="./images/icons/insta.png" alt="logo of instagram" width="30" height="30">
+            </div>
+        
+            <div class="footerContainer">
+        
+                <div class="footerLeft">
+        
+                    <h4> Lunch </h4>
+                    <p> Tuesday – Saturday
+                        <br>12:00 – 14:30
+                    </p>
+                    <h4> Dinner </h4>
+                    <p> Tuesday – Saturday
+                        <br>18:30 – 21.45
+                    </p>
+        
+                </div>
+                <div class="footerRight">
+                    <h4> Address </h4>
+                    <p> 123 King's Lane
+                        Westminster, London
+                        SW1A 1AA
+                        United Kingdom </p>
+                    <h4> Contact </h4>
+                    <p> Have an enquiry about bookings, private dining or our menu?
+                        Please contact us at: <span class="emailColor"> info@leafrestaurant.co.uk </span> </p>
+                    <p> Alternatively you can call us at <span class="numberColor"> +44 20 7946 0123 </span> between 9:30-17:30
+                        Tues-Sat</p>
+        
+        
+                </div>
+            </div>
+        
+        </footer>
+        </body>
+        
+        </html>

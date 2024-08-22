@@ -87,6 +87,23 @@ nav ul li a:hover {
    
 }
 
+.stars {
+    display: flex;
+    flex-direction: row;
+    margin: 0.4em 0 0 1em;
+
+
+}
+
+.stars img {
+    margin: 0 0.3em;
+
+}
+
+
+
+
+
 .btn {
     background-color: white;
     text-decoration: none;
@@ -111,6 +128,7 @@ nav ul li a:hover {
 .bookButton {
     margin: 0.7em 0 0 0;
 }
+
 
 
 main {
@@ -447,8 +465,14 @@ footer h3 a {
 
 }
 
-.emailColor, .numberColor {
+.contactColor {
     color: var(--primary-hover);
+
+}
+
+.contactColor a {
+    color: var(--primary-hover);
+    text-decoration: none;
 }
 
 
@@ -530,12 +554,6 @@ footer h3 a {
     line-height: 1.5em;
     color: var(--primary-text);
 }
-
-.emailCareers {
-    color: var(--primary-hover);
-}
-
-
 
 
 /* Menus */
@@ -747,6 +765,7 @@ input[type="radio"] {
     grid-template-columns: auto auto;
     gap: 5em;
     text-align: center;
+    margin-top: 5em;
     
 }
 
@@ -765,6 +784,15 @@ input[type="radio"] {
     margin-top: 0.5em;
 }
 
+.socialMediaContact {
+    padding-top: 2.8em;
+}
+
+.socialMediaContact p {
+    padding-top: 0.5em;
+}
+
+
 .map {
     margin-top: 4em;
 
@@ -778,5 +806,134 @@ input[type="radio"] {
 .map h2 {
     text-align: center;
     
+}
 
+/* Events */ 
+
+.eventsIntro {
+    text-align: center;
+    line-height: 1.5em;
+    margin-top: 1em;
+    padding: 0 3em;
+}
+
+
+/* Booking */
+
+
+.reservationContainer {
+    display: flex;
+}
+
+
+.reservationTitle {
+    text-align: center;
+    margin-top: 2em;
+
+}
+
+.reservationImage {
+    flex: 2;
+    margin-top: 4em;
+}
+
+.reservationForm {
+    margin: 4em 5em 0 0;
+    flex: 1;
+    padding: 2em 3em;
+    background-color: #ffffff;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+    color: var(--primary-green);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: var(--primary-text);
+    
+}
+
+
+input[type="date"],
+input[type="time"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-group input {
+    margin-right: 10px;
+}
+
+.tableButton {
+  margin: 1em 0 0 0;
+}
+
+
+
+.reservationText {
+    flex: 2;
+    margin-top: 3em;
+
+}
+
+
+
+.reservationText p {
+    margin: 1em 0;
+    padding: 0 1em;
+    
+
+}
+
+.reservationInfo {
+    display: flex;
+    margin-top: 5em;
+
+}
+
+.reservationInfo h3 {
+    color: var(--primary-green);
+    font-family: var(--primary-font);
+    font-weight: 400;
+    text-align: center;
+ 
+}
+
+.reservationInfo p {
+    margin-top: 2em;
+    padding: 0 5em;
+
+}
+
+.cancellationPolicy {
+    flex: 1;
+}
+
+.dressCode {
+    flex:1;
 }
