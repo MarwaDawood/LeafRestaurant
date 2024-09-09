@@ -628,7 +628,7 @@ footer h3 a {
 .slides {
     display: flex;
     width: 90%;
-    transition: transform 0.9s ease;
+    transition: transform 30s ease;
 }
 
 .slide {
@@ -647,11 +647,11 @@ input[type="radio"] {
 }
 
 #slide1:checked~.slides {
-    transform: translateX(200);
+    transform: translateX(0);
 }
 
 #slide2:checked~.slides {
-    transform: translateX(-200%);
+    transform: translateX(-700%);
 }
 
 
@@ -948,20 +948,19 @@ textarea {
 
 
 .blogContainer {
-    display: flex;   
+    display: grid; 
+    grid-template-columns: auto auto;
     
 }
 
-.blogContainerOther {
-    display: grid;
-    grid-template-columns: auto auto;
-}
+
 
 
 .blog {
-    margin: 0em 4em 4em 1em;
-    padding: 0 0.5em;
-    flex: 2;
+ margin: 1em 2em 5em 2em;
+ padding: 1em;
+    
+ 
 }
 
 
@@ -978,12 +977,8 @@ textarea {
      
 }
 
-.blogImageContainer {
-    width: 100%;
-   
+
   
-   
-}
 
 .blog img {
     width: 100%;
@@ -1005,36 +1000,4 @@ textarea {
 }
 
 
-aside {
-    padding: 0 6em;
-    margin-top: 4.9em;
-    flex: 1;
-   
-}
-
-
-aside h2 {
-    width: 7em;
-    border-bottom: solid black 0.1em;
-    padding: 0 0 0.5em 0;
-    color: var(--primary-green);
-    font-weight: 500;
-}
-
-
-aside ul {
-    list-style-type: none;
-}
-
-
-aside li {
-    margin: 1em 0;
-    font-weight: 200;
-   
-}
-
-aside li:hover {
-    color: var(--primary-hover);
-    cursor: pointer;
-}
 
